@@ -26,8 +26,7 @@ Or to run the script using the remote directory, set the corresponding remote fl
 python predict_Kinetics-100.py --remote --batch --verbose
 ```
 
-4. After the extraction of the .npy feature files, if the dataset needs to be split into train/val/test sets, then run the script that performs this split, using also a file where the splits are stored (like splits_Kinetics-100.npy). In this way, the features of a class that belongs to the train set, will be copied to the train folder, and so on.
-For example:
+4. After the extraction of the .npy feature files, if the dataset needs to be split into train/val/test sets (which is the case for Kinetics-100 for example), then run the script that performs this split, using also a file where the splits are stored (like splits_Kinetics-100.npy). In this way, a folder will be created for each split, and then the features of a class that belongs to each split, will be copied to that split's folder.
 ```
 python copy_npy_to_splits_Kinetics.py
 ```
