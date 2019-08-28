@@ -1,7 +1,7 @@
 import os
 import numpy as np
 
-# setting this to False, will not copy the files. instead, you'll just see printed messages of where the files would be copied
+# setting this to True, will not copy the files. instead, you'll just see printed messages of where the files would be copied
 dry_run = False
 
 root_path = os.getcwd()
