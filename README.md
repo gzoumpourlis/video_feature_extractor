@@ -30,6 +30,7 @@ python predict_Kinetics-100.py --remote --batch --verbose
 ```
 python copy_npy_to_splits_Kinetics.py
 ```
+Note that this script replaces spaces (' ') with underscores (' _ ') in the names of class folders.
 IMPORTANT : Check for possible error in the class named hurling_(sports) because of the parentheses (haven't found out yet why is this happening). If it hasn't been copied correctly in its split's folder, please do this manually.
 
 PS : To setup the modified version of Kinetics (let's call it Kinetics-100), used for few-shot video classification, see also this repo:
