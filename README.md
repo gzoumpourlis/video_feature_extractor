@@ -34,3 +34,7 @@ IMPORTANT : Check for possible error in the class named hurling_(sports) because
 
 PS : To setup the modified version of Kinetics (let's call it Kinetics-100), used for few-shot video classification, see also this repo:
 https://github.com/gzoumpourlis/FewShotKinetics_csv_lists
+
+
+Credits go to @DavideA, for the C3D model implementation:
+https://github.com/DavideA/c3d-pytorch
